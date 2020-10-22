@@ -56,7 +56,7 @@ elif opcion == 7:
 
 elif opcion == 8:
     print("Correos electronicos")
-    busqueda = re.findall(r'[a-zA-Z0-9_\-\.~]{2,}@[a-zA-Z0-9_\-\.~]{2,}\.[a-zA-Z]{2,4}', entrada, flags=re.MULTILINE)
+    busqueda = re.findall(r'[a-zA-Z0-9_\-\.~]{2,}@[a-zA-Z0-9_\-\.~]{2,}\.[a-zA-Z]{2,4}', entrada)
     print(busqueda)
 
 elif opcion == 9:
