@@ -39,7 +39,7 @@ elif opcion == 4:
 
 elif opcion == 5:
     print("Ip´s")
-    busqueda = re.findall("\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}[^0-9]", entrada)
+    busqueda = re.findall("\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}[^0-9]",entrada)
     print(busqueda)
 
 elif opcion == 6:
@@ -56,12 +56,12 @@ elif opcion == 7:
 
 elif opcion == 8:
     print("Correos electronicos")
-    busqueda = re.findall(r'[a-zA-Z0-9_\-\.~]{2,}@[a-zA-Z0-9_\-\.~]{2,}\.[a-zA-Z]{2,4}', entrada)
+    busqueda = re.findall(r'[a-zA-Z0-9_\-\.~]{2,}@[a-zA-Z0-9_\-\.~]{2,}\.[a-zA-Z]{2,4}',entrada)
     print(busqueda)
 
 elif opcion == 9:
     print("Url´s")
-    busqueda = re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', entrada)
+    busqueda = re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+',entrada)
     print(busqueda)
 	
 elif opcion == 10:
